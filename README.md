@@ -1,2 +1,2 @@
 # Website
-My Personal Website
+This is the code for my Personal Website.  The website has two URLs: esrapetursson.com and esracharlespetursson.com.  I created this website on my own from scratch.  I utilized HTML, JavaScript, jQuery, and CSS for the main basis of my code, and I Bootstrapped the whole site to be compatible with screens from normal size desktops to tablets to cell phones.  I have empty files that I plan to use as I learn more coding languages.  I plan to make my website more dynamic as I learn more.
