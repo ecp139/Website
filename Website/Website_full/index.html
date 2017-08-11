@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <meta charset="utf-8">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="font-awesome-4.7.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+    <title>Esra's Site</title>
+
+  </head>
+
+
+  <body>
+    <header class="container">
+      <br/>
+
+      <div class="col-md-1">
+        <p>
+          <img src="AcademyPGH_Picture.png">
+        </p>
+      </div>
+
+        <div class="text-right col-md-1 col-md-offset-9 text-capitalize">
+          <button type="button" class="btn btn-primary">
+          <a href="https://www.google.com/maps?q=google+808+fordham+ave+15226&um=1&ie=UTF-8&sa=X&ved=0ahUKEwitrqa_2srVAhWG7yYKHZhuD54Q_AUICigB"
+          target="_blank" class="text-uppercase address">
+            Address<br/>
+          </a>
+        </button>
+        </div>
+
+        <div id="address_color" class="text-right col-md-2 col-md-offset-9">
+            808 Fordham Ave., Pittsburgh, PA 15226
+        </div>
+
+    </header>
+
+    <nav class="navbar navbar-inverse container fixed-top nav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="developerSkills.html" target="_blank">Developer Skills</a></li>
+        <li><a href="workExperience.html" target="_blank">Work Experience</a></li>
+        <li><a href="education.html" target="_blank">Education</a></li>
+        <!-- <li><a href="references.html" target="_blank">References</a></li> -->
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="mailto:ecp139@gmail.com"><span class="glyphicon glyphicon-envelope"></span> Email Me</a></li>
+        <li><a href="https://github.com/ecp139" target="_blank"><span class="glyphicon glyphicon-log-in"></span> GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/esra-petursson-b9a48142/" target="_blank"><span class="glyphicon glyphicon-user"></span> LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--Mask-->
+<div class="view container">
+    <!--Intro content-->
+    <div class="full-bg-img flex-center">
+        <h1 class="h1-responsive">Home</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-11">
+        <h4 class="indent">
+          Welcome! Allow me to tell you a little bit about myself, I am Esra Petursson the creator of this website.
+          I have recently decided to pursue a career change and explore the world of computer science.
+          I was at a point in my career where I felt stagnant and had a desire to expand my skillset.
+          In order to further understand this new path I’ve chosen and equip myself with the necessary knowledge to succeed, I’ve completed the computer boot camp at AcademyPGH.
+        </h4>
+        <h4 class="indent">
+          My current goal is to combine my past experience with banking and accounting with my most recently acquired abilities in computer science.
+          I know the power in constant learning.  I feel that the people that enjoy their careers are the ones that continue to learn.
+          I am looking to work for a company that cares about the product they produce.  I want to be a part of a team that works hard towards specific goals that create quality services.
+        </h4>
+        <h4 class="indent">
+          To talk with me further or to leave feedback for my website, please contact me through the "Email Me" link or call me at <a href="tel:4129168545"><phone>412-916-8545</phone></a>.  Thank you for visiting!
+        </h4>
+      </div>
+    </div>
+    <!--/Intro content-->
+
+    <!-- <div id="using_json_2">
+    </div>
+
+    <br />
+
+    <div id="html1">
+      <ul>
+          <li>Root node 1
+            <ul>
+              <li class="jstree-open" id="node_1">Child node 1</li>
+              <li><a href="#">Child node 2</a></li>
+            </ul>
+          </li>
+      </ul>
+    </div> -->
+
+</div>
+<!--/.Mask-->
+  <script>
+   $('#html1').jstree();
+
+    $('#using_json_2').jstree({ 'core' : {
+      'data' : [
+         { "id" : "ajson1", "parent" : "#", "text" : "Projects" },
+         { "id" : "ajson2", "parent" : "#", "text" : "Root node 2" },
+         { "id" : "ajson3", "parent" : "ajson2", "text" : "Child 1" },
+         { "id" : "ajson4", "parent" : "ajson2", "text" : "Child 2" },
+      ]
+    }});
+  </script>
+  </body>
+    <script type="text/javascript" async src="jQuery.js"></script>
+    <script type="text/javascript" async src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</html>

@@ -1,0 +1,71 @@
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("abstract_blue_background.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+.address{
+  font-size: 25px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  text-decoration: underline;
+}
+
+h1, h4{
+  font-family: "Futura";
+  margin-top: 40px;
+}
+
+header {
+  background-image: url(Header_Picture_Ink.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav{
+  margin-bottom: -20px;
+}
+
+#address_color{
+  color: white;
+}
+div #ajson1{
+  icon: "glyphicon glyphicon-leaf";
+  background-color: yellow;
+}
+
+#node_1{
+  icon: "glyphicon glyphicon-leaf";
+}
+
+.resume_margin{
+  font-family: "Futura";
+  padding-left: 1cm;
+}
+
+.indent{
+  text-indent: 50px;
+}
+
+#index_nav{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#index_nav_padding{
+  padding-left: 0px;
+}
+
+phone{
+    color:white !important;
+    text-decoration:none;
+}
